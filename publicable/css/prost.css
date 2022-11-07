@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'renaultteemedregular';
+}
+
+@font-face {
+    font-family: 'renaultteemedregular';
+    src: url('/fonts/renaultteemed_regular-webfont.woff2') format('woff2'),
+        url('/fonts/renaultteemed_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    margin: 25px 95px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 20px;
+    width: 65px;
+    height: 75px;
+}
+
+.titulo-1{
+    display: inline-block;
+    margin: 0;
+    font-size: 50px;
+}
+
+nav{
+    background-color: black;
+    display: block;
+}
+
+.menu-nav{
+    display: flex;
+    padding: 10px;
+    margin: 0 0 0 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu-nav li{
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-nav a{
+    margin: 0 20px;
+    color: white;
+    margin: 15px;
+}
+
+.menu-nav a:hover{
+    color: rgb(236, 236, 55);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* foto de la pagina */
+.prost-15{
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    background-color: rgb(236, 236, 55);
+    padding-bottom: 20px;
+}
+
+main{
+    display: flex;
+    /* controla los márgenes de alrededor del contenido central*/
+    margin: 50px 50px 40px 50px;
+}
+
+/* aumentar el margen izquierdo del section */
+section{
+    width: 80%;
+    margin-left: 5%;
+}
+
+section p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+article{
+    width: 95%;
+}
+
+.number-arnoux{
+    display: inline-block;
+    margin-right: 15px;
+    color: red;
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+.title-prost{
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.french-flag{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.first-description{
+    /* text-align: justify; */
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.first-subtitle{
+    margin: 25px 50px 20px 0px;
+    /* font-size: 40px; */
+    /* margin: 0 0 20px 0; */
+    color: rgb(97, 97, 97);
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.subtitle-description{
+    text-align: start;
+}
+
+.broken-michelin{
+    width: 100%;
+}
+
+figcaption{
+    font-style: italic;
+    margin: 10px 0 25px 0;
+    font-size: 15px;
+}
+
+.michelin-competing{
+    width: 100%;
+}
+
+.last-text{
+    margin-bottom: 50px;
+}
+
+.button{
+    margin: 0;
+    padding: 5px 10px;
+    background-color:  red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+}
+
+.button:hover{
+    color: white;
+}
+
+aside{
+    width: 20%;
+    margin: 65px 5% 50% 0;
+    font-size: large;
+}
+
+.aside-title{
+    color: rgb(97, 97, 97);
+    font-family: 'renaultteemedregular';
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.split-line-title{
+    margin: 10px 25px 10px 0;
+}
+
+aside ul{
+    margin: 20px 0;
+    padding: 0;
+}
+
+aside li{
+    margin: 10px 0;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+aside a{
+    color: grey;
+}
+
+.aside-hosting{
+    color: rgb(97, 97, 97);
+    font-family: 'renaultteemedregular';
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+.split-line-hosting{
+    margin: 10px 25px 15px 0;
+}
+
+.patro-1{
+    margin-top: 15px;
+    width: 99.5%;
+    height: 10%;
+    background-color: grey;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+.patro-2{
+    width: 99.5%;
+    height: 15%;
+    background-color: grey;
+    padding: 1px;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    /* margin: 0; */
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+footer ul{
+    display: flex;
+    margin-left: 7.4%;
+}
+
+footer a{
+    color: white;
+    margin-right: 5px;
+}
+
+footer a:hover{
+    color: yellow;
+}
